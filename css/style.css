@@ -389,12 +389,12 @@ img {
 
 .filter-list {
     display: flex;
-    padding-bottom: 16px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
 .filter-list .button {
+    padding: 6px 22px;
     background-color: #f5f4fa;
     border-radius: 4px;
     border: 0;
@@ -409,10 +409,34 @@ img {
     letter-spacing: 0.03em;
 }
 
+.filter-list .button1 {
+    padding: 6px 25px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    /*justify-content: center;*/
+    letter-spacing: 0.03em;
+    /*color: #2196f3;*/
+}
+
+
 .filter-list .button:hover,
 .filter-list .button:focus {
-background-color: #2196f3;
-color: #fff;
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.filter-list .button1:hover,
+.filter-list .button1:focus {
+    background-color: #2196f3;
+    color: #fff;
 }
 
 .filter-list .item + .item {
