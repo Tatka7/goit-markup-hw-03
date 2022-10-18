@@ -1,5 +1,4 @@
 .body {
-    width: 1600px;
     margin-right: auto;
     margin-left: auto;
     background-color: #fff;
@@ -24,7 +23,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .section {
-    width: 1600px;
     padding: 94px 0px;
     align-items: center;
 }
@@ -92,10 +90,7 @@ img {
 
 .header-box {
     border-bottom: 1px solid #ececec;
-    width: 1200px;
-    padding: 0px 15px;
-    margin: 0px 200px;
-}
+}    
 
 .container.header {
     display: flex;
@@ -113,7 +108,6 @@ img {
 .site-nav {
     display: flex;
     width: 281px;
-    margin-right: 344px;
 }
 
 .site-nav .item + .item {
@@ -148,6 +142,7 @@ img {
 .mail-phon {
     display: flex;
     width: 307px;
+    margin-left: 344px;
 }
   
 .mail-phon .item + .item {
@@ -174,7 +169,6 @@ img {
 /*-------Hero-------*/
 
 .hero {
-    width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -215,42 +209,36 @@ img {
 
 /*-------benefits-------*/
 
-.section.benefits {
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 200px;
-    margin-left: 200px;
-}
-
 .benefits-title {
     display: none;
 }
 
 .benefits-list .title {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .benefits-list {
     display: flex;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.benefits-list .item {
-    width: 270px;
 }
  
 .benefits-list .description {
-    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     margin-top: 0px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+    text-align: left;
 }
 
 .benefits-list .item + .item {
@@ -260,10 +248,7 @@ img {
 /*------services-------*/
 
 .section.services {
-    padding: 0px 15px 0px 15px;
-    width: 1200px;
-    margin-right: 200px;
-    margin-left: 200px;
+    padding-top: 0px;
 }
 
 .container .services-list {
@@ -297,9 +282,6 @@ img {
 }
 
 .section.team {
-    width: 1600px;
-    padding-right: 215px;
-    padding-left: 215px;
     align-items: center;
     background-color: #f5f4fa;
 }
@@ -327,18 +309,30 @@ img {
 .title {
     margin-top: 30px;
     margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .description {
-    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*-------Footer-------*/
 
 .section-footer {
-    width: 1600px;
-    padding: 60px 215px;
-    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-decoration: none;
     background-color: #2f303a;
 }
@@ -395,23 +389,23 @@ img {
 
 .filter-list {
     display: flex;
-    width: 1200px;
-    padding-bottom: 34px;
-    margin-bottom: 50px 200px 0px 200px;
+    padding-bottom: 16px;
+    margin-bottom: 34px;
     justify-content: center;
 }
 
 .filter-list .button {
-    padding: 6px 25px;
     background-color: #f5f4fa;
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    justify-content: center;
+    /*justify-content: center;*/
     letter-spacing: 0.03em;
 }
 
@@ -429,21 +423,30 @@ color: #fff;
     display: flex;
     flex-wrap: wrap;
 }
+
+.project {
+    padding: 20px 24px;
+}
+
     
 .example-list .title {
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: left;
 }
 
 .example-list .description {
-    padding-bottom: 20px;
+    margin-top: 4px;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: #757575;
+    text-align: left;
 }
 
 .example-list .item:nth-child(3n + 1) {
@@ -467,7 +470,7 @@ color: #fff;
 }
     
 .example-list .project {
-    padding: 0px 24px;
+    padding: 20px 24px;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
