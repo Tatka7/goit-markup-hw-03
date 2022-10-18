@@ -266,8 +266,8 @@ img {
 .services-list{
     display: flex;
     align-items: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    /*padding-right: 15px;
+    padding-left: 15px;*/
 }
 
 .services-list .item + .item {
@@ -290,6 +290,11 @@ img {
     text-align: center;
 }
 
+.team-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .team-title {
     margin-bottom: 50px;
     font-size: 36px;
@@ -307,25 +312,22 @@ img {
 }
 
 .title {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .description {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /*-------Footer-------*/
